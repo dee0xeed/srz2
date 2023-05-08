@@ -10,7 +10,7 @@ pub const Decoder = struct {
 
     bp: *BitPredictor,
     file: *fs.File,
-    reader: * Reader,
+    reader: *Reader,
 
     xl: u32 = 0,
     xr: u32 = 0xFFFF_FFFF,
